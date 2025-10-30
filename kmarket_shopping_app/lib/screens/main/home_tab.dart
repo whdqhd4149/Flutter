@@ -100,11 +100,6 @@ class _HomeTabState extends State<HomeTab> {
 
   // 상품 섹션 디자인 함수
   Widget _buildProductSection(BuildContext context, String title){
-
-
-
-
-
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -145,6 +140,7 @@ class _HomeTabState extends State<HomeTab> {
   // 하단 푸터 디자인 함수
   Widget _buildFooter(BuildContext context) {
     return Container(
+      width: double.infinity,
       padding: EdgeInsets.all(20.0),
       color: Colors.grey[200],
       child: Column(
